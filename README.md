@@ -1,5 +1,5 @@
 # text-generator (ENG)
-Simple text generator, based on Markov chains.
+Simple text generator, based on Markov chains.\n
 Developed on C++ using STL.
 My idea is about reading all the text, and count all the transitions between the words. After that, we have nxn matrix of a Markov chain. We can generate(using random distribution from matrix) next word if we know current. 
 To quick start, you need put your text/books in dataset folder(by default it's Harry Potter books), and then run a program.
